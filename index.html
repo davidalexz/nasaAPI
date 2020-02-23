@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Astronomy Picture of the Day</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<img class="logo" src="./nasa.png" />
+			<h3>Picture of the Day</h3>
+		</header>
+
+		<section>
+			<div class="picture-container">
+				<h4 id="title"></h4>
+				<img id="picture" />
+				<div class="loader"></div>
+				<div class="error" id="error"></div>
+			</div>
+		</section>
+
+		<form id="dateForm">
+			<input type="date" class="picDate" />
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
